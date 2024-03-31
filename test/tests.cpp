@@ -45,7 +45,7 @@ TEST(BASE, check) {
 TEST(BASE, not_enough_money) {
     Automata coffee;
     coffee.on();
-    coffee.coin(90);
+    coffee.coin(30);
     coffee.choice(1);
     coffee.check();
 
